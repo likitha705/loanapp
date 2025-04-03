@@ -1,8 +1,7 @@
-
 import streamlit as st
 import joblib
 
-clf=joblib.load('C:/Users/KAVYA/OneDrive/New folder/likitha/loan.joblib')
+clf=joblib.load('loan.joblib')
 st.title('LOAN APP')
 g=st.number_input('Enter Gender 0:Male 1:Female')
 m=st.number_input('Enter Maritial status 0:No 1:Yes')
